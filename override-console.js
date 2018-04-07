@@ -1,4 +1,5 @@
 var console = {};
+
 console.log = function(){};
 console.error = function(){};
 console.clear = function (){};
@@ -23,5 +24,3 @@ console.trace = function (){};
 console.warn = function (){};
 
 window.console = console;
-
-console.error("asd");
