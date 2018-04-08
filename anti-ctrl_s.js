@@ -17,7 +17,7 @@ document.onkeydown = function (e) {
     }
 
     if (isCtrl) {
-        if ("c" == String.fromCharCode(key).toLowerCase()) {
+        if ("s" == String.fromCharCode(key).toLowerCase()) {
             return false;
         }
 
